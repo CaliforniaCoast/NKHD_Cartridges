@@ -1,3 +1,5 @@
+lib.locale()
+
 local cartridges = Config.MaxCartridges
 local NoCartgridgesMessage = false
 local cartridgesin = true
@@ -16,7 +18,7 @@ Citizen.CreateThread(function()
                         SpamCooldownPressed = true
                         TriggerServerEvent('checkTaserCartridges')
                     else
-                        ShowNotification('Broo, Chill')
+                        ShowNotification(locale('wait_before_reload'))
                     end
                 end
             end

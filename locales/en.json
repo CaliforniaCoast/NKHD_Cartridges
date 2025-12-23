@@ -1,0 +1,6 @@
+{
+  "wait_before_reload": "Wait before reloading again!",
+  "taser_reloaded": "Taser Reloaded",
+  "no_cartridges_left": "There are no Cartridges left.",
+  "out_of_cartridges": "Out of cartridges! Press R to reload."
+}
